@@ -1,3 +1,4 @@
+
 /* This css file is to over write bootstarp css
 ---------------------------------------------------------------------- */
 /*
@@ -644,7 +645,7 @@ button:focus {
 }
 .testimonial-slider blockquote {
     border: none;
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 300;
     padding: 0px 15%;
 }
