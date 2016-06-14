@@ -361,7 +361,7 @@ button:focus {
     display: inline-block;
 }
 .tab-image {
-    margin-left: -15px;
+    margin-left: +70px;
 }
 .about-work .description {
     font-size: .8125em;
@@ -1335,4 +1335,14 @@ footer .widget-title {
 }
 .read-more{
     color: #e74c3c;
+}
+
+.centerlol{
+    position:absolute;
+    height: X px;
+    width: Y px;
+    left:50%;
+    top:50%;
+    margin-top:- X/2 px;
+    margin-left:- Y/2 px;
 }
