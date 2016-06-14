@@ -1129,13 +1129,13 @@ footer {
     padding: 0px;
 }
 .footer-social .col-xs-4:first-child {
-    background-color: #3b5998;
+    background-color: #0077B5;
 }
 .footer-social .col-xs-4:nth-child(2) {
-    background-color: #00bdec;
+    background-color: #fd1d1d;
 }
 .footer-social .col-xs-4:nth-child(3) {
-    background-color: #e45c8f;
+    background-color: #34ad00;
 }
 .footer-social .social-icon {
     font-size: 2.8em;
