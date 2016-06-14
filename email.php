@@ -10,7 +10,7 @@ if (filter_var($_REQUEST['email'], FILTER_VALIDATE_EMAIL)):
 
       // Receiver email address (Change it to your Email ID)
 //  $to = 'webmaster@funkyjunkytechies.com';
-  $to = 'labudiu@gmail.com';
+  $to = 'caudevilla.louis@outlook.com';
 
       // prepare header
 $header = 'From: '. $_REQUEST['name'] . ' <'. $_REQUEST['email'] .'>'. "\r\n";
@@ -20,7 +20,7 @@ $header .= 'Reply-To:  '. $_REQUEST['name'] . ' <'. $_REQUEST['email'] .'>'. "\r
 $header .= 'X-Mailer: PHP/' . phpversion();
 
       // Contact subject
-$subject = "Email Form Foody HTML5 Template";
+$subject = "New email from louiscaudevilla.com";
 
       // Contact Message
 $message .= 'Name: ' . $_REQUEST['name'] . "\n";

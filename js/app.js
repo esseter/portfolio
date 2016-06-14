@@ -91,8 +91,8 @@ $(window).resize(function () {
 
 
 //Set langitude and latidute for your location
-var lat = 40.729523;
-var lng = -73.978672;
+var lat = 31.2598513;
+var lng = -121.49969229999999;
 var myLangLat = new google.maps.LatLng(lat, lng);
 
 google.maps.Map.prototype.setCenterWithOffset= function(latlng, offsetX, offsetY) {
