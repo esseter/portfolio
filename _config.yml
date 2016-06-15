@@ -8,10 +8,8 @@
 # Site settings
 title: LC CV
 email: caudevilla.louis@outlook.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description:  # this means to ignore newlines until "baseurl:"
+  My name is Louis Caudevilla, french and living in China. Young graduated business student looking for opportunites in Asia or in relation with China.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://louiscaudevilla.com" # the base hostname & protocol for your site
 twitter_username: EssetiYapi
