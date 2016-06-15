@@ -643,11 +643,12 @@
 
       <div class="form-area text-center wow animated fadeInRight" data-wow-delay=".75s">
         <h2 class="section-title"><span>Contact</span> Me</h2><!-- /.section-title -->
-        <form action="email.php" method="post" id="contactform" class="contactform">
+        <form action="https://formspree.io/caudevilla.louis@outlook.com"
+      method="POST">
           <input id="name" class="form-control" name="name" type="text" placeholder="Name" value="" required>
-          <input id="email" class="form-control pull-right" name="email" type="email" placeholder="Email" value="" required>
+          <input id="email" class="form-control pull-right" name="_replyto" type="email" placeholder="Email" value="" required>
           <textarea id="message" class="form-control" name="message" placeholder="Your Message" rows="5" required></textarea>
-          <button name="submit" class="btn submit-btn" type="submit" id="submit">Send Message</button>
+          <input type="submit" name="submit" class="btn submit-btn" type="submit" id="submit" value="Send" />
         </form><!-- /#contactform -->
       </div><!-- /.form-area -->
     </div><!-- /.contact-inner -->
