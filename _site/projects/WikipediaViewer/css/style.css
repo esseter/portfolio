@@ -1,0 +1,112 @@
+body {
+  background-color: #005662;
+}
+
+#buttons {
+  top: 30%;
+  position: absolute;
+  width: 100%;
+  margin-top: 30px;
+}
+
+#full-page {
+  min-height: 100%;
+  background-color: #005662;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+
+#searchBar {
+  width: auto;
+  padding-top: 40px;
+}
+
+#blockOne {
+  min-width: 33%;
+}
+
+#blockTwo {
+  min-width: 33%;
+}
+
+#searchIcon {
+  margin: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  color: white;
+  padding-top: 50px;
+}
+
+#inputBar {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: white;
+  border-width: 2px;
+  color: white;
+}
+
+#footer {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+#titleFooter {
+  color: white;
+}
+
+#name {
+  float: right;
+  color: #ffffc6;
+}
+
+.article {
+  padding: 20px;
+  text-align: left;
+}
+
+.title {
+  color: #1a0dab;
+  font-size: 17px;
+}
+
+.description {
+  color: #545454;
+  font-size: 13px;
+}
+
+#box {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  min-height: 275px;
+}
+
+#box:hover {
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, .6), -3px 2px 2px 1px rgba(0, 0, 0, .9);
+  transition-duration: 2s;
+}
+
+#box::after {
+  transition-delay: 100ms;
+  transition-duration: 1000ms;
+}
+
+@media screen and (max-width: 840px) {
+  #box {
+    min-height: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #name {
+    margin-top: -50px;
+  }
+  #searchBar {
+    padding-top: 80px;
+  }
+  #searchIcon {
+    padding-top: 89px;
+  }
+}

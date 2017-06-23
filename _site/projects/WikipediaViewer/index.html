@@ -1,0 +1,136 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Importing fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+    <!-- myStyle -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="application/javascript" src="js/javascript.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="full-container text-center" id="full-page">
+      <div class="container" style="height: 20%">
+        <div class="row">
+          <div class="col-sm-4" id="blockOne">
+          </div>
+          <div class="col-sm-4">
+            <div class="form-group has-error has-feedback" id="searchBar">
+              <input type="text" class="form-control" placeholder="Start Searching" id="inputBar">
+              <span class="form-control-feedback" id="searchIcon"><i class="fa fa-search" aria-hidden="true"></i></span>
+            </div>
+          </div>
+          <div class="col-sm-4" id="blockTwo">
+
+          </div>
+        </div>
+      </div>
+      <div class="container" id="results">
+        <!--
+            <div class="row">
+              <div class="col-md-3">
+                <div class="article">
+                  <div class="well" id="box">
+                    <h3 class="title">Title</h3>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="article">
+                  <div class="well" id="box">
+                    <h3 class="title">Title</h3>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="article">
+                  <div class="well" id="box">
+                    <h3 class="title">Title</h3>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="article">
+                  <div class="well" id="box">
+                    <h3 class="title">Title</h3>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="article">
+                  <div class="well" id="box">
+                    <h3 class="title">Title</h3>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="article">
+                  <div class="well" id="box">
+                    <h3 class="title">Title</h3>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="article">
+                  <div class="well" id="box">
+                    <h3 class="title">Title</h3>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="article">
+                  <div class="well" id="box">
+                    <h3 class="title">Title</h3>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      -->
+      </div>
+      <!--
+      <div id="buttons" class="text-center">
+        <div class="col-md-12">
+          <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button type="button" name="button" class="btn btn-default" id="randomButton">Click here for Random Article</button></a>
+        </div>
+      </div>
+      -->
+      <nav class="navbar navbar-inverse navbar-fixed-top" id="footer">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#" id="titleFooter">Wikipedia Search Engine</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blanck" id="name"><i class="fa fa-random" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </body>

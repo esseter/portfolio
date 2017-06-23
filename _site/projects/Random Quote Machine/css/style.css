@@ -1,0 +1,50 @@
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+}
+
+#title {
+  background-color: #f5f5f5;
+  color: black;
+}
+
+#quote-block {
+  background-color: #ffffff;
+  min-height: 20%;
+}
+
+
+#getQuote {
+  background-color: #546e7a;
+  border-color: #546e7a;
+
+}
+
+#quote-block {
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#tweet {
+  background-color: #64b5f6;
+  border-color: #64b5f6;
+
+}
+
+#buttons {
+  height: 50px;
+}
+
+@media screen and (max-width: 640px) {
+  #quote-block {
+    min-height: 300px;;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #buttons {
+    margin-top: 60px;
+  }
+}
