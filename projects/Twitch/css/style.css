@@ -1,0 +1,81 @@
+#full-page {
+  font-family: 'Baloo', cursive;
+  background-color: #ffcb00;
+  min-height: 100%;
+  margin-top: ;
+}
+
+#title {
+  padding-top: 20px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+#table {
+  margin-top: 5%;
+}
+
+#tabs > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+#tabs {
+    text-align:center;
+}
+
+.streamer {
+  padding: 10px;
+  transition-duration: 1s;
+}
+
+.streamer:hover {
+  transition-duration: 2s;
+  background-color: hsla(240, 22%, 68%, 0.28);
+}
+
+#category {
+  min-width: 100px;
+}
+
+.activityDead {
+  padding: 10px;
+}
+
+.streamerName {
+  margin-bottom: 0px;
+  float: left;
+}
+
+.activity {
+  float: left;
+  text-align: -webkit-left;
+}
+
+.streamStatus i {
+  padding: 30px;
+}
+
+#links {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (min-width:591px) and (max-width : 773px) {
+  #table {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+}
+
+@media only screen and (min-width:774px) and (max-width : 992px) {
+  #table {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}

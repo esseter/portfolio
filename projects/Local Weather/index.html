@@ -1,0 +1,74 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Show the Local Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- myStyle -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Baloo fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="application/javascript" src="js/javascript.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body id="body">
+  <div class="container-fluid" id="fullDiv">
+    <div class="" id="centerText">
+      <h2>CURRENT WEATHER</h2>
+      <div class="container text-center">
+        <div id="symbol">
+          <p> </p>
+        </div>
+        <div class="row">
+          <div class="col-xs-6">
+            <h4 class="description">City</h4>
+          </div>
+          <div class="col-xs-6">
+            <h4 class="api-results" id="city">***</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6">
+            <h4 class="description">Weather</h4>
+          </div>
+          <div class="col-xs-6">
+            <h4 class="api-results" id="Weather">***</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6">
+            <h4 class="description">Temperature</h4>
+          </div>
+          <div class="col-xs-6">
+            <h4 class="api-results celsius" id="temperature">***</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6">
+            <h4 class="description">Description</h4>
+          </div>
+          <div class="col-xs-6">
+            <h4 class="api-results" id="description">***</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <button type="button" name="button" class="btn-danger" id="convert">Convert to feirenheit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
