@@ -567,7 +567,7 @@ div.pp_default .pp_loaderIcon
 
 /* ABOUT SECTION */
 
-#about
+#passions
 {
     background-color: black;
     background-repeat: no-repeat;
@@ -576,17 +576,17 @@ div.pp_default .pp_loaderIcon
     z-index: 7;
 }
 
-#about .section-title-holder
+#passions .section-title-holder
 {
     background-color: #e64b77;
 }
 
-#about .section-title-holder span
+#passions .section-title-holder span
 {
     color: #b24564;
 }
 
-#about .section-content-holder
+#passions .section-content-holder
 {
     padding-bottom: 0;
 }
